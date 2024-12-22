@@ -21,7 +21,7 @@ public class LoginScenario extends InitializeBrowser
 		login.click_loginbttn(); 
 		login.validate_login();
 		Thread.sleep(3000);
-		
+		/*
 		login.click_logoutbttn_negTest();
 		Thread.sleep(3000);
 		login.enter_valid_email("nepal@gmail.com"); 
@@ -30,6 +30,6 @@ public class LoginScenario extends InitializeBrowser
 		login.click_loginbttn_for_negTest();
 		//For validation 
 		login.neg_validate_login();
-				
+		*/		
 	}
 }

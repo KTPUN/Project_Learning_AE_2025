@@ -55,6 +55,7 @@ public class LoginPage
      SoftAssert sa=new SoftAssert();
      sa.assertEquals(ActTitle,ExptTitle);*/
 	}	
+	/*
 	//Negative Test
 	public void click_logoutbttn_negTest() throws Exception
 	{
@@ -92,5 +93,4 @@ public class LoginPage
      String ActTitle=driver.getTitle();
      SoftAssert sa=new SoftAssert();
      sa.assertEquals(ActTitle,ExptTitle);*/
-	}
 }

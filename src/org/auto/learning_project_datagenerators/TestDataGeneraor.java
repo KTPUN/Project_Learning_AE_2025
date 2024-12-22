@@ -6,11 +6,12 @@ public class TestDataGeneraor
 {
 
 	
-	@DataProvider(name="staticdata")
+	@DataProvider(name="logindata")
 	public Object[] [] testdata()
 	{
-		Object[] [] data = {{"nepal@gmail.com"},{"nepal123"}};    //2-D array
-				return data;
+		Object[] [] data = {{"nepal@gmail.com","nepal1"},{"nepal123@gmail.com","nepal123"},{"nepal@gmail.com","nepal123"}};
+		//2-D array
+		return data;
 	}
 			
 }

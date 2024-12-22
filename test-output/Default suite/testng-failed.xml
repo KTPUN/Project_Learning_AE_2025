@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.auto.learning_project.testcase.LoginScenario_DDF">
+      <class name="org.auto.learning_project.testcase.HomePage_Men_Scenario">
         <methods>
           <include name="closeBrowser"/>
           <include name="launchBrowser"/>
-          <include name="tc002_validcredentialLogin"/>
+          <include name="tc04_valid_Men_homepagefunc"/>
         </methods>
-      </class> <!-- org.auto.learning_project.testcase.LoginScenario_DDF -->
+      </class> <!-- org.auto.learning_project.testcase.HomePage_Men_Scenario -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

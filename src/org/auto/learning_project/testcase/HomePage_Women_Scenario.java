@@ -7,7 +7,7 @@ import org.auto.learning_project_basePkg.InitializeBrowser;
 import org.testng.annotations.Test;
 
 
-public class HomePageScenario extends InitializeBrowser
+public class HomePage_Women_Scenario extends InitializeBrowser
 {
 
 	@Test

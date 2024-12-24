@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class LoginScenario_DDF extends InitializeBrowser 
 {
 
-	@Test(dataProvider="logindata",dataProviderClass=TestDataGeneraor.class)
+	@Test(priority=1,dataProvider="logindata",dataProviderClass=TestDataGeneraor.class)
 	public void tc002_LoginFunct(String username, String password) throws Exception
 	{
 		LoginPage login = new LoginPage(driver);
@@ -18,6 +18,6 @@ public class LoginScenario_DDF extends InitializeBrowser
 		login.enter_email(username);
 		login.enter_password(password);
 		login.click_loginbttn();
-					
+			
 	}
 }

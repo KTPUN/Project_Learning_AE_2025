@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class HomePage_Women_Scenario extends InitializeBrowser
 {
 
-	@Test
+	@Test(priority=2) //dependsOnMethods="tc002_LoginFunct"
 	public void tc03_validhomepagefunc() throws Exception
 	{
       LoginPage login = new LoginPage(driver);

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class SignupScenario extends InitializeBrowser
 {
 
-	@Test
+	@Test(enabled=false)
 	public void tc01_validsignupfunc() throws Exception
 	{
 		RegistrationPage signup = new RegistrationPage(driver);

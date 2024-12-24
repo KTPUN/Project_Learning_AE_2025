@@ -3,26 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testNGDemo.TestScenario7"/>
-      <class name="testNGDemo.TestScenario6"/>
-      <class name="testNGDemo.TestScenario5"/>
-      <class name="testNGDemo.TestScenario"/>
-      <class name="testNGDemo.TestScenario4"/>
-      <class name="testNGDemo.TestScenario3"/>
-      <class name="testNGDemo.TestScenario2"/>
-      <class name="org.xyz.automation.FetchDataRuntime"/>
-      <class name="testNGDemo.TestScenario10"/>
-      <class name="org.wipro.auto.fb.testcase.Navigate_DifferentControls_TabKeys"/>
-      <class name="org.xyz.automation.HandleKeyboradMouse"/>
-      <class name="testNGDemo.TestScenario9"/>
-      <class name="testNGDemo.TestScenario8"/>
-      <class name="org.wipro.auto.fb.testcase.LoginScenario_DDF"/>
-      <class name="org.wipro.auto.fb.testcase.SignupScenario"/>
-      <class name="org.wipro.auto.fb.testcase.SignupScenario_DDF"/>
-      <class name="org.wipro.auto.fb.datagenerators.TestDataGeneraor"/>
-      <class name="org.xyz.automation.DifferentControl"/>
-      <class name="org.wipro.auto.fb.testcase.LoginScenario"/>
-      <class name="org.xyz.automation.FirstAutomation"/>
+      <class name="org.auto.learning_project.testcase.HomePage_Men_Scenario"/>
+      <class name="org.auto.learning_project_datagenerators.TestDataGeneraor"/>
+      <class name="org.auto.learning_project.testcase.SignupScenario"/>
+      <class name="org.auto.learning_project.testcase.LoginScenario"/>
+      <class name="org.auto.learning_project.testcase.HomePage_Women_Scenario"/>
+      <class name="org.auto.learning_project.testcase.LoginScenario_DDF"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

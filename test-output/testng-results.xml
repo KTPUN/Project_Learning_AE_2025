@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-22T11:48:07 PST" name="Default suite" finished-at="2024-12-22T11:48:59 PST" duration-ms="51154">
+  <suite started-at="2024-12-22T22:29:58 PST" name="Default suite" finished-at="2024-12-22T22:30:15 PST" duration-ms="16733">
     <groups>
     </groups>
-    <test started-at="2024-12-22T11:48:07 PST" name="Default test" finished-at="2024-12-22T11:48:59 PST" duration-ms="51154">
-      <class name="org.auto.learning_project.testcase.HomePage_Men_Scenario">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.auto.learning_project.testcase.HomePage_Men_Scenario@5ccddd20]" started-at="2024-12-22T11:48:08 PST" name="launchBrowser" finished-at="2024-12-22T11:48:21 PST" duration-ms="13024" status="PASS">
+    <test started-at="2024-12-22T22:29:58 PST" name="Default test" finished-at="2024-12-22T22:30:15 PST" duration-ms="16733">
+      <class name="org.auto.learning_project.testcase.LoginScenario">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.auto.learning_project.testcase.LoginScenario@5ccddd20]" started-at="2024-12-22T22:29:59 PST" name="launchBrowser" finished-at="2024-12-22T22:30:07 PST" duration-ms="8124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="tc04_valid_Men_homepagefunc()[pri:0, instance:org.auto.learning_project.testcase.HomePage_Men_Scenario@5ccddd20]" started-at="2024-12-22T11:48:21 PST" name="tc04_valid_Men_homepagefunc" finished-at="2024-12-22T11:48:59 PST" duration-ms="37968" status="PASS">
+        <test-method signature="tc02_validloginfunc()[pri:0, instance:org.auto.learning_project.testcase.LoginScenario@5ccddd20]" started-at="2024-12-22T22:30:07 PST" name="tc02_validloginfunc" finished-at="2024-12-22T22:30:15 PST" duration-ms="7850" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc04_valid_Men_homepagefunc -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.auto.learning_project.testcase.HomePage_Men_Scenario@5ccddd20]" started-at="2024-12-22T11:48:59 PST" name="closeBrowser" finished-at="2024-12-22T11:48:59 PST" duration-ms="1" status="PASS">
+        </test-method> <!-- tc02_validloginfunc -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.auto.learning_project.testcase.LoginScenario@5ccddd20]" started-at="2024-12-22T22:30:15 PST" name="closeBrowser" finished-at="2024-12-22T22:30:15 PST" duration-ms="651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- org.auto.learning_project.testcase.HomePage_Men_Scenario -->
+      </class> <!-- org.auto.learning_project.testcase.LoginScenario -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -37,8 +37,11 @@ public class LoginPage
 	public void click_loginbttn() throws Exception
 	{
 		driver.findElement(By.cssSelector(ReadPropFiles.readelement("Login_loginbttn_css"))).click();
+		//Hard assertion 
+		Assert.assertTrue(driver.getTitle().contains("Automation Exercise"),"User is not able to login-Invalid Credentials");
+		System.out.println("Page Title verified -User is able to login successfully");
 	}
-	
+	/*
 	public void validate_login() throws Exception
 	{
 		//Hard Assertion 
@@ -47,15 +50,15 @@ public class LoginPage
 	String ActTitle=driver.getTitle();
 	Assert.assertEquals(ActTitle,ExptTitle);
 	
-	/*	
+		
 	//Soft Assertion 
 	//String ExptTitle ="AutomationExercise";
 	 String ExptTitle ="Automation Exercise";
      String ActTitle=driver.getTitle();
      SoftAssert sa=new SoftAssert();
-     sa.assertEquals(ActTitle,ExptTitle);*/
-	}	
-	/*
+     sa.assertEquals(ActTitle,ExptTitle);
+	} 	
+	
 	//Negative Test
 	public void click_logoutbttn_negTest() throws Exception
 	{

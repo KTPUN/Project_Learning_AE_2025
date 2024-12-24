@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class HomePage_Men_Scenario extends InitializeBrowser
 {
 
-	@Test
+	@Test(priority=3) //dependsOnMethods="tc002_LoginFunct"
 	public void tc04_valid_Men_homepagefunc() throws Exception
 	{
       LoginPage login = new LoginPage(driver);

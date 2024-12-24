@@ -61,7 +61,7 @@ public class InitializeBrowser
 	{
 	   //driver.manage().deleteAllCookies();
 		//driver.close();
-		//driver.quit();
+		driver.quit();
 	}
 	
 }
